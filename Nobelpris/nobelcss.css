@@ -1,10 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-h2{
-	font-family:"Arial Black", Gadget, sans-serif;
-	font-size:20px;
-}
 body {
 	background-color:#000;
 	font-family:Verdana, Geneva, sans-serif;
@@ -39,18 +35,18 @@ nav{
 	float:left;
 }
 
-article{
-	background-color:#69F;
-	width:80%;
-	height:90%;
-	float:left;
-}
-
 aside{
 	background-color:#99C;
 	width:70%;
 	height:100%;
 	overflow:hidden;
+}
+
+article{
+	background-color:#69F;
+	width:80%;
+	height:90%;
+	float:left;
 }
 
 li {
@@ -64,4 +60,10 @@ p{
 	font-size:20px;
 	
 }
-
+h2{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:20px;
+}
+a{
+	color:#FFF;
+}
