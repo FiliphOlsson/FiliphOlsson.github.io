@@ -1,0 +1,277 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin:0;
+}
+
+
+#storbox{
+	background-color:#FFF;
+	width:100%;
+	height:100%;
+	position:absolute;
+	overflow:hidden;
+}
+#storbox-uk{
+	background-image:url(123.jpg);
+	width:100%;
+	height:100%;
+	position:absolute;
+	overflow:hidden;
+	background-repeat:no-repeat;
+}
+#storbox-IT{
+	background-image:url(italy.jpg);
+	width:100%;
+	height:100%;
+	position:absolute;
+	overflow:hidden;
+	background-repeat:no-repeat;
+	
+}
+article{
+	background-image:url(BG.jpg);
+	width:100%;
+	height:100%;
+	float:left;
+	overflow:hidden;
+}
+aside{	
+	width:100%;
+	height:100%;
+	
+	
+	
+}
+
+#flaggor
+{	width:250px;
+	margin-top:0px;
+	height:100%;
+	float:left;
+	
+}
+
+.flagg
+{
+	width:100%;
+	margin-top:20px;}
+	
+	
+#content {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 240px;
+}
+#content figure {
+  	margin: 0
+}
+#content table {
+    position: absolute;
+    top: 710px;
+    width: 400px;
+	margin-left:30px;
+}
+
+.react-3d-carousel {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    perspective: 1000px;
+}
+
+.react-3d-carousel .carousel {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+}
+
+.react-3d-carousel .carousel  figure {
+    display: block;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 10px;
+    top: 10px;
+    border: 2px solid black;
+    line-height: 116px;
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.react-3d-carousel .carousel figure {
+    background: hsla( 160, 100%, 50%, 0.8);
+}
+
+
+
+.react-3d-carousel   .prev {
+    position: absolute;
+    height: 100%;
+    width: 15%;
+    top: 0px;
+    left: 0px;
+}
+
+.react-3d-carousel   .prev:before {
+    content: url("http://s3.postimg.org/o6xpvkidb/chevron_left_white.png");
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 43px;
+    height: 49px;
+    margin: auto;
+}
+
+.react-3d-carousel  .next {
+    position: absolute;
+    height: 100%;
+    width: 15%;
+    top: 0px;
+    right: -5px;
+}
+
+.react-3d-carousel  .next:before
+{
+    content: url("http://s2.postimg.org/l0n6eaoad/chevron_right_white.png");
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 43px;
+    height: 49px;
+    margin: auto;
+}
+iframe {
+	height:970px;
+	width:30%;
+	position:fixed;
+	margin-left:10px;
+	margin-top:-580px;
+}
+#text{
+	height:500px;
+	width:500px;	
+	margin-left:1200px;
+	margin-top:-45px;
+	font-size:19px;
+}
+
+h1{
+	
+	margin-left:825px;
+	font-size:40px;
+	color:#36F;
+}
+
+#rubrik{
+	margin-left:20px;
+	font-size:60px;
+	color:#000;
+	
+}
+#ITalien{
+	height:400px;
+	width:800px;
+	margin-left:10px;
+}
+#FisItalien{
+	margin-left:20px;
+	margin-top:-710px;
+	width:760px;
+	height:900px;	
+}
+#ITtext{
+	margin-left:1300px;
+	margin-top:300px;
+	font-family:"Times New Roman", Times, serif;
+	font-size:20px;
+}
+#storbox-ESP{
+	background-image:url(spanienba.jpg);
+	width:100%;
+	height:100%;
+	position:absolute;
+	overflow:hidden;
+	background-repeat:no-repeat;
+	
+}
+#ESPalien{
+	height:500px;
+	width:800px;
+	margin-left:10px;
+}
+#FisSpanien{
+	margin-left:250px;
+	margin-top:100px;
+	width:760px;	
+}
+#ESPtext{
+	margin-left:1300px;
+	margin-top:520px;
+	font-family:"Times New Roman", Times, serif;
+	color:#FFF;
+	font-size:19px;
+}
+#storbox-SWE{
+	background-image:url(sweden.jpg);
+	width:100%;
+	height:100%;
+	position:absolute;
+	overflow:hidden;
+	background-repeat:no-repeat;
+
+	
+}
+#SWEalien{
+	height:500px;
+	width:800px;
+	margin-left:10px;
+}
+#FisSverige{
+	margin-left:250px;
+	margin-top:100px;
+	width:760px;	
+}
+#SWEtext{
+	margin-left:1300px;
+	margin-top:-40px;
+	font-family:"Times New Roman", Times, serif;
+	color:#FFF;
+	font-size:23px;
+}
+
+#storbox-GER{
+	background-image:url(tyske.jpg);
+	width:100%;
+	height:100%;
+	position:absolute;
+	overflow:hidden;
+	background-repeat:no-repeat;
+	
+}
+#GERalien{
+	height:500px;
+	width:800px;
+	margin-left:10px;
+}
+#FisTyskland{
+	margin-left:250px;
+	margin-top:100px;
+	width:760px;	
+}
+#GERtext{
+	margin-left:1300px;
+	margin-top:260px;
+	font-family:"Times New Roman", Times, serif;
+	color:#FFF;
+	font-size:23px;
+}
+
